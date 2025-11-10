@@ -1,24 +1,24 @@
 export const stylesVar = {
 	// 🎨 Cores principais
 	cWhite: "rgba(251, 237, 230, 1)",
-	cBlack: "#01010fff",
-	cPurple: "#3326ebff",
+	cBlack: "rgba(1, 1, 15, 1)",
+	cPurple: "rgba(51, 38, 235, 1)",
 
 	// 🩶 Cores secundárias e neutras
-	cGray: "#ccc",
-	cGrayDark: "#0a054ed6",
-	cGrayLight: "#4639ffff",
-	cBgDark: "#050421",
-	cBgLight: "#3326ebff",
+	cGray: "rgba(204, 204, 204, 1)",
+	cGrayDark: "rgba(10, 5, 78, 0.84)",
+	cGrayLight: "rgba(70, 57, 255, 1)",
+	cBgDark: "rgba(5, 4, 33, 1)",
+	cBgLight: "rgba(51, 38, 235, 1)",
 
 	// 💬 Cores de texto e links
 	cText: "rgba(251, 237, 230, 0.95)",
-	cTextMuted: "#bcbcbc",
-	cLink: "#d7bfff",
+	cTextMuted: "rgba(188, 188, 188, 1)",
+	cLink: "rgba(215, 191, 255, 1)",
 
 	headerHeight: "100px",
-	cHover: "#453ae8ff",
-	cHover2: "#050421",
+	cHover: "rgba(69, 58, 232, 1)",
+	cHover2: "rgba(5, 4, 33, 1)",
 
 	// 🧱 Bordas e radius
 	borderRadius: "10px",
@@ -40,13 +40,13 @@ export const stylesVar = {
 
 	// 🌈 Tema (para futuro dark/light mode)
 	themeLight: {
-		bg: "#ffffff",
-		text: "#020217ff",
-		link: "#6a5acd",
+		bg: "rgba(255, 255, 255, 1)",
+		text: "rgba(2, 2, 23, 1)",
+		link: "rgba(106, 90, 205, 1)",
 	},
 	themeDark: {
-		bg: "#020217ff",
-		text: "#fbede6",
-		link: "#d7bfff",
+		bg: "rgba(2, 2, 23, 1)",
+		text: "rgba(251, 237, 230, 1)",
+		link: "rgba(215, 191, 255, 1)",
 	},
 };
